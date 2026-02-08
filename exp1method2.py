@@ -1,5 +1,6 @@
 # Method 2:
 import statistics
+
 data = list(map(int, input("Enter numbers separated by space: ").split()))
 
 mean = statistics.mean(data)
